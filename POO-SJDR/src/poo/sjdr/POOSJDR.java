@@ -17,6 +17,16 @@ public class POOSJDR {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hola mundo");
+        
+        //tenemos que generar antes los objetos de las clases 
+        Usuario x=new Usuario ();
+        x.altura=1.68f;
+        x.peso=71f;
+        Imc algo=new Imc();
+        algo.u=x;
+       //Calculamos el Imc a travez de su objeto
+        
+                System.out.println(algo.calcular());
     }
     
 }
