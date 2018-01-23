@@ -20,8 +20,8 @@ public class POOSJDR {
         
         //tenemos que generar antes los objetos de las clases 
         Usuario x=new Usuario ();
-        x.altura=1.68f;
-        x.peso=71f;
+        x.setAltura(1.68f);
+        x.setPeso(80);
         Imc algo=new Imc();
         algo.u=x;
        //Calculamos el Imc a travez de su objeto
